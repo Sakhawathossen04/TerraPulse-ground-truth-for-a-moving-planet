@@ -1,0 +1,154 @@
+{
+  "id": "mexico-city",
+  "name": "Mexico City (Valley of Mexico)",
+  "country": "Mexico",
+  "story": "One of the fastest-subsiding cities on Earth: groundwater overdraft compacting ancient lakebed clays.",
+  "flagship": true,
+  "center": [
+    -99.13,
+    19.43
+  ],
+  "bbox": [
+    -99.35,
+    19.25,
+    -98.9,
+    19.6
+  ],
+  "trueVelocityMmYr": -28,
+  "seasonalityAmpMm": 9,
+  "noiseSigmaMm": 3.1,
+  "exposure": {
+    "population": 9209944,
+    "infra": 0.93
+  },
+  "shapeMeters": 38000,
+  "epochs": [
+    {
+      "date": "2025-08-01",
+      "displacementMm": 10.399,
+      "sigmaMm": 3.366
+    },
+    {
+      "date": "2025-08-29",
+      "displacementMm": 3.286,
+      "sigmaMm": 2.858
+    },
+    {
+      "date": "2025-09-26",
+      "displacementMm": 7.427,
+      "sigmaMm": 3.164
+    },
+    {
+      "date": "2025-10-24",
+      "displacementMm": 4.455,
+      "sigmaMm": 2.94
+    },
+    {
+      "date": "2025-11-21",
+      "displacementMm": -3.606,
+      "sigmaMm": 3.404
+    },
+    {
+      "date": "2025-12-19",
+      "displacementMm": -12.336,
+      "sigmaMm": 3.24
+    },
+    {
+      "date": "2026-01-16",
+      "displacementMm": -19.492,
+      "sigmaMm": 2.839
+    },
+    {
+      "date": "2026-02-13",
+      "displacementMm": -22.883,
+      "sigmaMm": 3.059
+    },
+    {
+      "date": "2026-03-13",
+      "displacementMm": -26.696,
+      "sigmaMm": 3.245
+    },
+    {
+      "date": "2026-04-10",
+      "displacementMm": -30.656,
+      "sigmaMm": 3.351
+    },
+    {
+      "date": "2026-05-08",
+      "displacementMm": -24.213,
+      "sigmaMm": 2.968
+    },
+    {
+      "date": "2026-06-05",
+      "displacementMm": -27.915,
+      "sigmaMm": 2.978
+    },
+    {
+      "date": "2026-07-03",
+      "displacementMm": -23.497,
+      "sigmaMm": 2.982
+    },
+    {
+      "date": "2026-07-31",
+      "displacementMm": -22.394,
+      "sigmaMm": 2.949
+    }
+  ],
+  "gnss": [
+    {
+      "id": "MEX1",
+      "name": "UNAM central",
+      "lonLat": [
+        -99.19,
+        19.33
+      ],
+      "distKm": 10.4,
+      "velocityMmYr": -26.7,
+      "sigmaMmYr": 0.6
+    },
+    {
+      "id": "MEX2",
+      "name": "Texcoco east",
+      "lonLat": [
+        -98.98,
+        19.52
+      ],
+      "distKm": 16,
+      "velocityMmYr": -31.2,
+      "sigmaMmYr": 0.7
+    },
+    {
+      "id": "MEX3",
+      "name": "Xochimilco",
+      "lonLat": [
+        -99.1,
+        19.26
+      ],
+      "distKm": 19.5,
+      "velocityMmYr": -24.4,
+      "sigmaMmYr": 0.8
+    }
+  ],
+  "classifier": {
+    "predicted": "subsidence-bowl",
+    "dist": [
+      {
+        "cls": "subsidence-bowl",
+        "p": 0.82
+      },
+      {
+        "cls": "landslide-creep",
+        "p": 0.09
+      },
+      {
+        "cls": "structural-motion",
+        "p": 0.06
+      },
+      {
+        "cls": "atmospheric-artifact",
+        "p": 0.03
+      }
+    ],
+    "iouHoldout": 0.63
+  }
+}

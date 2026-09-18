@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-ink text-slate-100 antialiased;
+  background-image: radial-gradient(1200px 500px at 80% -10%, rgba(94, 234, 212, 0.08), transparent),
+    radial-gradient(900px 400px at 10% 110%, rgba(56, 189, 248, 0.06), transparent);
+}
+
+.panel {
+  @apply rounded-xl border border-edge bg-panel/80 shadow-card;
+}
+
+.stat-num {
+  @apply font-mono tabular-nums;
+}
+
+.chip {
+  @apply inline-flex items-center gap-1 rounded-full border border-edge px-2.5 py-0.5 text-xs text-muted;
+}
+
+.btn {
+  @apply inline-flex items-center justify-center gap-2 rounded-lg border border-edge bg-panel px-3.5 py-2 text-sm font-medium text-slate-100 transition hover:border-signal/60 hover:text-signal disabled:opacity-50;
+}
+
+.btn-primary {
+  @apply border-signal/50 bg-signal/10 text-signal hover:bg-signal/20;
+}
+
+.input {
+  @apply w-full rounded-lg border border-edge bg-ink px-3 py-2 text-sm text-slate-100 placeholder:text-muted/60 focus:border-signal/60 focus:outline-none;
+}
+
+.receipt-line {
+  @apply font-mono text-xs text-muted;
+}
+
+/* MapLibre overrides to fit the theme */
+.maplibregl-ctrl-group {
+  background: #111a2c !important;
+  border: 1px solid #223049 !important;
+}
+.maplibregl-ctrl-attrib.maplibregl-compact {
+  background: rgba(17, 26, 44, 0.8) !important;
+  color: #8aa0bf !important;
+}
+.maplibregl-ctrl-attrib a {
+  color: #8aa0bf !important;
+}
+.maplibregl-popup-content {
+  background: #111a2c !important;
+  color: #e2e8f0 !important;
+  border: 1px solid #223049 !important;
+  border-radius: 12px;
+  font-size: 12px;
+}
+.maplibregl-popup-tip {
+  border-top-color: #111a2c !important;
+  border-bottom-color: #111a2c !important;
+}

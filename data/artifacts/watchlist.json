@@ -1,0 +1,62 @@
+[
+  {
+    "aoiId": "mexico-city",
+    "name": "Mexico City (Valley of Mexico)",
+    "country": "Mexico",
+    "velocityMmYr": -31.21,
+    "hi95AbsMmYr": 35.6,
+    "trendClass": "subsiding",
+    "affectedFrac": 0.95,
+    "exposureScore": 6.8,
+    "watchScore": 38.2,
+    "receiptId": "rcpt-mexico-city-ff39707f89bc"
+  },
+  {
+    "aoiId": "jakarta",
+    "name": "Jakarta (north coastal districts)",
+    "country": "Indonesia",
+    "velocityMmYr": -19.97,
+    "hi95AbsMmYr": 28.31,
+    "trendClass": "creep",
+    "affectedFrac": 0.91,
+    "exposureScore": 6.7,
+    "watchScore": 24.5,
+    "receiptId": "rcpt-jakarta-12da3c820336"
+  },
+  {
+    "aoiId": "central-valley",
+    "name": "Central Valley (Corcoran–Wasco)",
+    "country": "USA",
+    "velocityMmYr": -17.52,
+    "hi95AbsMmYr": 29.35,
+    "trendClass": "creep",
+    "affectedFrac": 0.93,
+    "exposureScore": 4.6,
+    "watchScore": 20.4,
+    "receiptId": "rcpt-central-valley-4fac390eca39"
+  },
+  {
+    "aoiId": "ho-chi-minh",
+    "name": "Ho Chi Minh City (mekong-edge districts)",
+    "country": "Vietnam",
+    "velocityMmYr": -11.07,
+    "hi95AbsMmYr": 18.39,
+    "trendClass": "creep",
+    "affectedFrac": 0.83,
+    "exposureScore": 6.4,
+    "watchScore": 13.5,
+    "receiptId": "rcpt-ho-chi-minh-465c9c29ae06"
+  },
+  {
+    "aoiId": "lagos",
+    "name": "Lagos (Lekki–Victoria Island)",
+    "country": "Nigeria",
+    "velocityMmYr": -9.85,
+    "hi95AbsMmYr": 14.13,
+    "trendClass": "creep",
+    "affectedFrac": 0.72,
+    "exposureScore": 6.5,
+    "watchScore": 12.1,
+    "receiptId": "rcpt-lagos-ea019687133e"
+  }
+]

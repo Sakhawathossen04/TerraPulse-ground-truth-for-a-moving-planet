@@ -1,0 +1,143 @@
+{
+  "id": "ho-chi-minh",
+  "name": "Ho Chi Minh City (mekong-edge districts)",
+  "country": "Vietnam",
+  "story": "Soft deltaic sediments + groundwater pumping + construction loading = 2–7 cm/yr across the metro.",
+  "flagship": false,
+  "center": [
+    106.7,
+    10.78
+  ],
+  "bbox": [
+    106.5,
+    10.6,
+    106.9,
+    10.95
+  ],
+  "trueVelocityMmYr": -12,
+  "seasonalityAmpMm": 12,
+  "noiseSigmaMm": 3.5,
+  "exposure": {
+    "population": 9320000,
+    "infra": 0.81
+  },
+  "shapeMeters": 40000,
+  "epochs": [
+    {
+      "date": "2025-08-01",
+      "displacementMm": 11.076,
+      "sigmaMm": 3.611
+    },
+    {
+      "date": "2025-08-29",
+      "displacementMm": 2.418,
+      "sigmaMm": 3.356
+    },
+    {
+      "date": "2025-09-26",
+      "displacementMm": 12.698,
+      "sigmaMm": 3.486
+    },
+    {
+      "date": "2025-10-24",
+      "displacementMm": 13.873,
+      "sigmaMm": 3.812
+    },
+    {
+      "date": "2025-11-21",
+      "displacementMm": 4.404,
+      "sigmaMm": 3.817
+    },
+    {
+      "date": "2025-12-19",
+      "displacementMm": -9.425,
+      "sigmaMm": 3.569
+    },
+    {
+      "date": "2026-01-16",
+      "displacementMm": -7.331,
+      "sigmaMm": 3.695
+    },
+    {
+      "date": "2026-02-13",
+      "displacementMm": -11.751,
+      "sigmaMm": 3.288
+    },
+    {
+      "date": "2026-03-13",
+      "displacementMm": -22.184,
+      "sigmaMm": 3.733
+    },
+    {
+      "date": "2026-04-10",
+      "displacementMm": -18.864,
+      "sigmaMm": 3.459
+    },
+    {
+      "date": "2026-05-08",
+      "displacementMm": -15.628,
+      "sigmaMm": 3.523
+    },
+    {
+      "date": "2026-06-05",
+      "displacementMm": -5.34,
+      "sigmaMm": 3.202
+    },
+    {
+      "date": "2026-07-03",
+      "displacementMm": -2.192,
+      "sigmaMm": 3.305
+    },
+    {
+      "date": "2026-07-31",
+      "displacementMm": -4.012,
+      "sigmaMm": 3.721
+    }
+  ],
+  "gnss": [
+    {
+      "id": "HCM1",
+      "name": "District 1",
+      "lonLat": [
+        106.7,
+        10.78
+      ],
+      "distKm": 1.1,
+      "velocityMmYr": -11.2,
+      "sigmaMmYr": 0.8
+    },
+    {
+      "id": "HCM2",
+      "name": "Thu Duc",
+      "lonLat": [
+        106.77,
+        10.85
+      ],
+      "distKm": 9.9,
+      "velocityMmYr": -9.4,
+      "sigmaMmYr": 0.9
+    }
+  ],
+  "classifier": {
+    "predicted": "subsidence-bowl",
+    "dist": [
+      {
+        "cls": "subsidence-bowl",
+        "p": 0.74
+      },
+      {
+        "cls": "landslide-creep",
+        "p": 0.11
+      },
+      {
+        "cls": "structural-motion",
+        "p": 0.09
+      },
+      {
+        "cls": "atmospheric-artifact",
+        "p": 0.06
+      }
+    ],
+    "iouHoldout": 0.63
+  }
+}

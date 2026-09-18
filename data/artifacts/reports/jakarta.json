@@ -1,0 +1,162 @@
+{
+  "aoiId": "jakarta",
+  "generatedAtUtc": "2026-09-18T12:00:00.000Z",
+  "headline": {
+    "medianVelocityMmYr": -19.97,
+    "lo95": -28.31,
+    "hi95": -14.96,
+    "trendClass": "creep",
+    "confidence": 0.5,
+    "sample": "14 NISAR/Sentinel epochs, 34 km AOI"
+  },
+  "decomposition": [
+    {
+      "date": "2025-08-01",
+      "trendMm": 0.162193,
+      "seasonalMm": 7.612289
+    },
+    {
+      "date": "2025-08-29",
+      "trendMm": -1.368525,
+      "seasonalMm": 10.636173
+    },
+    {
+      "date": "2025-09-26",
+      "trendMm": -2.899244,
+      "seasonalMm": 11.308724
+    },
+    {
+      "date": "2025-10-24",
+      "trendMm": -4.429963,
+      "seasonalMm": 9.334065
+    },
+    {
+      "date": "2025-11-21",
+      "trendMm": -5.960681,
+      "seasonalMm": 5.082117
+    },
+    {
+      "date": "2025-12-19",
+      "trendMm": -7.4914,
+      "seasonalMm": -0.427401
+    },
+    {
+      "date": "2026-01-16",
+      "trendMm": -9.022119,
+      "seasonalMm": -5.801805
+    },
+    {
+      "date": "2026-02-13",
+      "trendMm": -10.552837,
+      "seasonalMm": -9.711652
+    },
+    {
+      "date": "2026-03-13",
+      "trendMm": -12.083556,
+      "seasonalMm": -11.28467
+    },
+    {
+      "date": "2026-04-10",
+      "trendMm": -13.614275,
+      "seasonalMm": -10.289286
+    },
+    {
+      "date": "2026-05-08",
+      "trendMm": -15.144993,
+      "seasonalMm": -7.078838
+    },
+    {
+      "date": "2026-06-05",
+      "trendMm": -16.675712,
+      "seasonalMm": -2.402296
+    },
+    {
+      "date": "2026-07-03",
+      "trendMm": -18.206431,
+      "seasonalMm": 2.781987
+    },
+    {
+      "date": "2026-07-31",
+      "trendMm": -19.737149,
+      "seasonalMm": 7.43352
+    }
+  ],
+  "areaStats": {
+    "p10": -17.66,
+    "p50": -11.86,
+    "p90": -4.62,
+    "affectedFrac": 0.91
+  },
+  "validation": {
+    "nStations": 3,
+    "maeMmYr": 2.46,
+    "maxAbsErrMmYr": 4.77,
+    "conformalCoverage": 1,
+    "targetCoverage": 0.9,
+    "coverageMet": true
+  },
+  "classifier": {
+    "predicted": "subsidence-bowl",
+    "confidence": 0.78,
+    "dist": [
+      {
+        "cls": "subsidence-bowl",
+        "p": 0.78
+      },
+      {
+        "cls": "landslide-creep",
+        "p": 0.1
+      },
+      {
+        "cls": "structural-motion",
+        "p": 0.07
+      },
+      {
+        "cls": "atmospheric-artifact",
+        "p": 0.05
+      }
+    ]
+  },
+  "scenario": {
+    "years": [
+      5,
+      10,
+      15,
+      20
+    ],
+    "medianMm": [
+      -99.84,
+      -199.68,
+      -299.52,
+      -399.35
+    ],
+    "loMm": [
+      -114.77,
+      -220.79,
+      -325.38,
+      -429.22
+    ],
+    "hiMm": [
+      -84.91,
+      -178.56,
+      -273.65,
+      -369.49
+    ]
+  },
+  "receiptId": "rcpt-jakarta-12da3c820336",
+  "narrator": [
+    "The area shows slow creep of 20.0 mm/yr (95% CI as shown).",
+    "Median velocity is -19.97 ± 6.67 mm/yr (95% CI -28.31 to -14.96), computed from 14 NISAR/Sentinel epochs, 34 km AOI.",
+    "GNSS validation: 3 stations within the AOI agree with a mean absolute error of 2.46 mm/yr (worst 4.77).",
+    "Conformal 90% intervals covered 100% of GNSS check points (target 90% — met).",
+    "The classifier labels this signal \"subsidence-bowl\" with 78% confidence.",
+    "91% of the AOI shows motion beyond the noise floor (p90 -4.62 mm/yr).",
+    "If the trend continues 20 years, projected displacement reaches -399.4 mm (95% CI -429.2 to -369.5).",
+    "Last epoch: 2026-07-31 (49 days ago) — recent (1–2 revisit cycles old)."
+  ],
+  "staleness": {
+    "lastEpoch": "2026-07-31",
+    "daysSinceLastEpoch": 49,
+    "flag": "recent (1–2 revisit cycles old)"
+  }
+}

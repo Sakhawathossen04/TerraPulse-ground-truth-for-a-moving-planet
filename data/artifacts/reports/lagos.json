@@ -1,0 +1,162 @@
+{
+  "aoiId": "lagos",
+  "generatedAtUtc": "2026-09-18T12:00:00.000Z",
+  "headline": {
+    "medianVelocityMmYr": -9.85,
+    "lo95": -14.13,
+    "hi95": -5.61,
+    "trendClass": "creep",
+    "confidence": 0.5,
+    "sample": "14 NISAR/Sentinel epochs, 42 km AOI"
+  },
+  "decomposition": [
+    {
+      "date": "2025-08-01",
+      "trendMm": -0.06252,
+      "seasonalMm": 3.860367
+    },
+    {
+      "date": "2025-08-29",
+      "trendMm": -0.817448,
+      "seasonalMm": 5.988501
+    },
+    {
+      "date": "2025-09-26",
+      "trendMm": -1.572376,
+      "seasonalMm": 7.023066
+    },
+    {
+      "date": "2025-10-24",
+      "trendMm": -2.327304,
+      "seasonalMm": 6.056765
+    },
+    {
+      "date": "2025-11-21",
+      "trendMm": -3.082233,
+      "seasonalMm": 2.983334
+    },
+    {
+      "date": "2025-12-19",
+      "trendMm": -3.837161,
+      "seasonalMm": -1.1983
+    },
+    {
+      "date": "2026-01-16",
+      "trendMm": -4.592089,
+      "seasonalMm": -4.868479
+    },
+    {
+      "date": "2026-02-13",
+      "trendMm": -5.347017,
+      "seasonalMm": -6.728904
+    },
+    {
+      "date": "2026-03-13",
+      "trendMm": -6.101945,
+      "seasonalMm": -6.495638
+    },
+    {
+      "date": "2026-04-10",
+      "trendMm": -6.856873,
+      "seasonalMm": -4.844044
+    },
+    {
+      "date": "2026-05-08",
+      "trendMm": -7.611801,
+      "seasonalMm": -2.72092
+    },
+    {
+      "date": "2026-06-05",
+      "trendMm": -8.366729,
+      "seasonalMm": -0.638908
+    },
+    {
+      "date": "2026-07-03",
+      "trendMm": -9.121658,
+      "seasonalMm": 1.465499
+    },
+    {
+      "date": "2026-07-31",
+      "trendMm": -9.876586,
+      "seasonalMm": 3.756288
+    }
+  ],
+  "areaStats": {
+    "p10": -8.58,
+    "p50": -5.49,
+    "p90": -2.34,
+    "affectedFrac": 0.72
+  },
+  "validation": {
+    "nStations": 2,
+    "maeMmYr": 3.2,
+    "maxAbsErrMmYr": 4.75,
+    "conformalCoverage": 1,
+    "targetCoverage": 0.9,
+    "coverageMet": true
+  },
+  "classifier": {
+    "predicted": "subsidence-bowl",
+    "confidence": 0.7,
+    "dist": [
+      {
+        "cls": "subsidence-bowl",
+        "p": 0.7
+      },
+      {
+        "cls": "landslide-creep",
+        "p": 0.12
+      },
+      {
+        "cls": "structural-motion",
+        "p": 0.1
+      },
+      {
+        "cls": "atmospheric-artifact",
+        "p": 0.08
+      }
+    ]
+  },
+  "scenario": {
+    "years": [
+      5,
+      10,
+      15,
+      20
+    ],
+    "medianMm": [
+      -49.24,
+      -98.48,
+      -147.72,
+      -196.96
+    ],
+    "loMm": [
+      -58.76,
+      -111.94,
+      -164.21,
+      -216
+    ],
+    "hiMm": [
+      -39.72,
+      -85.01,
+      -131.22,
+      -177.91
+    ]
+  },
+  "receiptId": "rcpt-lagos-ea019687133e",
+  "narrator": [
+    "The area shows slow creep of 9.8 mm/yr (95% CI as shown).",
+    "Median velocity is -9.85 ± 4.26 mm/yr (95% CI -14.13 to -5.61), computed from 14 NISAR/Sentinel epochs, 42 km AOI.",
+    "GNSS validation: 2 stations within the AOI agree with a mean absolute error of 3.20 mm/yr (worst 4.75).",
+    "Conformal 90% intervals covered 100% of GNSS check points (target 90% — met).",
+    "The classifier labels this signal \"subsidence-bowl\" with 70% confidence.",
+    "72% of the AOI shows motion beyond the noise floor (p90 -2.34 mm/yr).",
+    "If the trend continues 20 years, projected displacement reaches -197.0 mm (95% CI -216.0 to -177.9).",
+    "Last epoch: 2026-07-31 (49 days ago) — recent (1–2 revisit cycles old)."
+  ],
+  "staleness": {
+    "lastEpoch": "2026-07-31",
+    "daysSinceLastEpoch": 49,
+    "flag": "recent (1–2 revisit cycles old)"
+  }
+}

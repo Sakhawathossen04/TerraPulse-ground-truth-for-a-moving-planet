@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: TerraPulse — station-verified land-motion intelligence from NISAR
+message: >-
+  TerraPulse turns NASA–ISRO NISAR radar data into station-verified,
+  uncertainty-quantified land-motion intelligence with auditable
+  provenance receipts.
+type: software
+authors:
+  - name: TerraPulse Team
+version: 1.0.0
+date: "2026-09-19"
+license: MIT
+repository-code: "https://github.com/terrapulse/terrapulse"
+keywords:
+  - NISAR
+  - InSAR
+  - land subsidence
+  - GNSS validation
+  - uncertainty quantification
+  - NASA Space Apps

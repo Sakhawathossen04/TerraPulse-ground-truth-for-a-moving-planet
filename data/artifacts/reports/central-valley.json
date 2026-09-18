@@ -1,0 +1,162 @@
+{
+  "aoiId": "central-valley",
+  "generatedAtUtc": "2026-09-18T12:00:00.000Z",
+  "headline": {
+    "medianVelocityMmYr": -17.52,
+    "lo95": -29.35,
+    "hi95": -7.97,
+    "trendClass": "creep",
+    "confidence": 0.5,
+    "sample": "14 NISAR/Sentinel epochs, 55 km AOI"
+  },
+  "decomposition": [
+    {
+      "date": "2025-08-01",
+      "trendMm": -3.947673,
+      "seasonalMm": 11.413979
+    },
+    {
+      "date": "2025-08-29",
+      "trendMm": -5.290807,
+      "seasonalMm": 17.163469
+    },
+    {
+      "date": "2025-09-26",
+      "trendMm": -6.633942,
+      "seasonalMm": 17.569944
+    },
+    {
+      "date": "2025-10-24",
+      "trendMm": -7.977076,
+      "seasonalMm": 13.072985
+    },
+    {
+      "date": "2025-11-21",
+      "trendMm": -9.320211,
+      "seasonalMm": 6.005137
+    },
+    {
+      "date": "2025-12-19",
+      "trendMm": -10.663346,
+      "seasonalMm": -1.062768
+    },
+    {
+      "date": "2026-01-16",
+      "trendMm": -12.00648,
+      "seasonalMm": -6.732872
+    },
+    {
+      "date": "2026-02-13",
+      "trendMm": -13.349615,
+      "seasonalMm": -10.917707
+    },
+    {
+      "date": "2026-03-13",
+      "trendMm": -14.692749,
+      "seasonalMm": -13.827596
+    },
+    {
+      "date": "2026-04-10",
+      "trendMm": -16.035884,
+      "seasonalMm": -14.92478
+    },
+    {
+      "date": "2026-05-08",
+      "trendMm": -17.379018,
+      "seasonalMm": -12.939009
+    },
+    {
+      "date": "2026-06-05",
+      "trendMm": -18.722153,
+      "seasonalMm": -7.032684
+    },
+    {
+      "date": "2026-07-03",
+      "trendMm": -20.065287,
+      "seasonalMm": 1.901619
+    },
+    {
+      "date": "2026-07-31",
+      "trendMm": -21.408422,
+      "seasonalMm": 11.056742
+    }
+  ],
+  "areaStats": {
+    "p10": -20.45,
+    "p50": -13.68,
+    "p90": -5.69,
+    "affectedFrac": 0.93
+  },
+  "validation": {
+    "nStations": 3,
+    "maeMmYr": 2.64,
+    "maxAbsErrMmYr": 4.62,
+    "conformalCoverage": 1,
+    "targetCoverage": 0.9,
+    "coverageMet": true
+  },
+  "classifier": {
+    "predicted": "subsidence-bowl",
+    "confidence": 0.8,
+    "dist": [
+      {
+        "cls": "subsidence-bowl",
+        "p": 0.8
+      },
+      {
+        "cls": "landslide-creep",
+        "p": 0.08
+      },
+      {
+        "cls": "structural-motion",
+        "p": 0.07
+      },
+      {
+        "cls": "atmospheric-artifact",
+        "p": 0.05
+      }
+    ]
+  },
+  "scenario": {
+    "years": [
+      5,
+      10,
+      15,
+      20
+    ],
+    "medianMm": [
+      -87.6,
+      -175.21,
+      -262.81,
+      -350.41
+    ],
+    "loMm": [
+      -111.51,
+      -209.01,
+      -304.21,
+      -398.22
+    ],
+    "hiMm": [
+      -63.7,
+      -141.4,
+      -221.41,
+      -302.61
+    ]
+  },
+  "receiptId": "rcpt-central-valley-4fac390eca39",
+  "narrator": [
+    "The area shows slow creep of 17.5 mm/yr (95% CI as shown).",
+    "Median velocity is -17.52 ± 10.69 mm/yr (95% CI -29.35 to -7.97), computed from 14 NISAR/Sentinel epochs, 55 km AOI.",
+    "GNSS validation: 3 stations within the AOI agree with a mean absolute error of 2.64 mm/yr (worst 4.62).",
+    "Conformal 90% intervals covered 100% of GNSS check points (target 90% — met).",
+    "The classifier labels this signal \"subsidence-bowl\" with 80% confidence.",
+    "93% of the AOI shows motion beyond the noise floor (p90 -5.69 mm/yr).",
+    "If the trend continues 20 years, projected displacement reaches -350.4 mm (95% CI -398.2 to -302.6).",
+    "Last epoch: 2026-07-31 (49 days ago) — recent (1–2 revisit cycles old)."
+  ],
+  "staleness": {
+    "lastEpoch": "2026-07-31",
+    "daysSinceLastEpoch": 49,
+    "flag": "recent (1–2 revisit cycles old)"
+  }
+}

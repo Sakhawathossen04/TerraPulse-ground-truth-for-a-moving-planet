@@ -1,0 +1,39 @@
+{
+  "name": "terrapulse",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TerraPulse — station-verified, uncertainty-quantified land-motion intelligence from NASA–ISRO NISAR.",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "node scripts/serve-artifacts.mjs && next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "pipeline": "esbuild scripts/run-pipeline.ts --bundle --platform=node --format=cjs --outfile=.pipeline/run.cjs && node .pipeline/run.cjs",
+    "serve:artifacts": "node scripts/serve-artifacts.mjs"
+  },
+  "dependencies": {
+    "maplibre-gl": "^4.7.1",
+    "next": "14.2.32",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
+    "autoprefixer": "^10.4.20",
+    "dotenv": "^16.4.7",
+    "esbuild": "^0.24.2",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "14.2.32",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.5",
+    "vitest-canvas-mock": "^0.3.3"
+  }
+}

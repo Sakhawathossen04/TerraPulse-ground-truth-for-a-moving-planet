@@ -1,0 +1,143 @@
+{
+  "id": "lagos",
+  "name": "Lagos (Lekki–Victoria Island)",
+  "country": "Nigeria",
+  "story": "Coastal megacity on unstable sediments: subsidence compounds Atlantic encroachment and flood risk.",
+  "flagship": false,
+  "center": [
+    3.45,
+    6.43
+  ],
+  "bbox": [
+    3.2,
+    6.25,
+    3.7,
+    6.6
+  ],
+  "trueVelocityMmYr": -9,
+  "seasonalityAmpMm": 8,
+  "noiseSigmaMm": 3.2,
+  "exposure": {
+    "population": 15380000,
+    "infra": 0.77
+  },
+  "shapeMeters": 42000,
+  "epochs": [
+    {
+      "date": "2025-08-01",
+      "displacementMm": 4.017,
+      "sigmaMm": 3.446
+    },
+    {
+      "date": "2025-08-29",
+      "displacementMm": 3.957,
+      "sigmaMm": 3.309
+    },
+    {
+      "date": "2025-09-26",
+      "displacementMm": 5.293,
+      "sigmaMm": 3.119
+    },
+    {
+      "date": "2025-10-24",
+      "displacementMm": 0.209,
+      "sigmaMm": 3.255
+    },
+    {
+      "date": "2025-11-21",
+      "displacementMm": 0.676,
+      "sigmaMm": 3.156
+    },
+    {
+      "date": "2025-12-19",
+      "displacementMm": -3.594,
+      "sigmaMm": 3.45
+    },
+    {
+      "date": "2026-01-16",
+      "displacementMm": -14.251,
+      "sigmaMm": 3.383
+    },
+    {
+      "date": "2026-02-13",
+      "displacementMm": -10.299,
+      "sigmaMm": 3.04
+    },
+    {
+      "date": "2026-03-13",
+      "displacementMm": -15.932,
+      "sigmaMm": 3.217
+    },
+    {
+      "date": "2026-04-10",
+      "displacementMm": -10.387,
+      "sigmaMm": 3.02
+    },
+    {
+      "date": "2026-05-08",
+      "displacementMm": -10.257,
+      "sigmaMm": 3.239
+    },
+    {
+      "date": "2026-06-05",
+      "displacementMm": -13.375,
+      "sigmaMm": 2.956
+    },
+    {
+      "date": "2026-07-03",
+      "displacementMm": -6.736,
+      "sigmaMm": 3.367
+    },
+    {
+      "date": "2026-07-31",
+      "displacementMm": -6.739,
+      "sigmaMm": 3.247
+    }
+  ],
+  "gnss": [
+    {
+      "id": "LAG1",
+      "name": "Victoria Island",
+      "lonLat": [
+        3.44,
+        6.43
+      ],
+      "distKm": 1,
+      "velocityMmYr": -8.2,
+      "sigmaMmYr": 1
+    },
+    {
+      "id": "LAG2",
+      "name": "Ikeja",
+      "lonLat": [
+        3.34,
+        6.6
+      ],
+      "distKm": 21,
+      "velocityMmYr": -5.1,
+      "sigmaMmYr": 1.2
+    }
+  ],
+  "classifier": {
+    "predicted": "subsidence-bowl",
+    "dist": [
+      {
+        "cls": "subsidence-bowl",
+        "p": 0.7
+      },
+      {
+        "cls": "landslide-creep",
+        "p": 0.12
+      },
+      {
+        "cls": "structural-motion",
+        "p": 0.1
+      },
+      {
+        "cls": "atmospheric-artifact",
+        "p": 0.08
+      }
+    ],
+    "iouHoldout": 0.63
+  }
+}

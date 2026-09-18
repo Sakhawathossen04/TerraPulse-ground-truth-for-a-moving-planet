@@ -1,0 +1,162 @@
+{
+  "aoiId": "mexico-city",
+  "generatedAtUtc": "2026-09-18T12:00:00.000Z",
+  "headline": {
+    "medianVelocityMmYr": -31.21,
+    "lo95": -35.6,
+    "hi95": -27.48,
+    "trendClass": "subsiding",
+    "confidence": 0.78,
+    "sample": "14 NISAR/Sentinel epochs, 38 km AOI"
+  },
+  "decomposition": [
+    {
+      "date": "2025-08-01",
+      "trendMm": 2.477697,
+      "seasonalMm": 6.083258
+    },
+    {
+      "date": "2025-08-29",
+      "trendMm": 0.085203,
+      "seasonalMm": 8.508035
+    },
+    {
+      "date": "2025-09-26",
+      "trendMm": -2.30729,
+      "seasonalMm": 9.486485
+    },
+    {
+      "date": "2025-10-24",
+      "trendMm": -4.699784,
+      "seasonalMm": 8.222012
+    },
+    {
+      "date": "2025-11-21",
+      "trendMm": -7.092278,
+      "seasonalMm": 4.500724
+    },
+    {
+      "date": "2025-12-19",
+      "trendMm": -9.484772,
+      "seasonalMm": -0.829286
+    },
+    {
+      "date": "2026-01-16",
+      "trendMm": -11.877266,
+      "seasonalMm": -6.052042
+    },
+    {
+      "date": "2026-02-13",
+      "trendMm": -14.26976,
+      "seasonalMm": -9.406054
+    },
+    {
+      "date": "2026-03-13",
+      "trendMm": -16.662254,
+      "seasonalMm": -9.97706
+    },
+    {
+      "date": "2026-04-10",
+      "trendMm": -19.054748,
+      "seasonalMm": -8.035734
+    },
+    {
+      "date": "2026-05-08",
+      "trendMm": -21.447242,
+      "seasonalMm": -4.632198
+    },
+    {
+      "date": "2026-06-05",
+      "trendMm": -23.839736,
+      "seasonalMm": -0.834823
+    },
+    {
+      "date": "2026-07-03",
+      "trendMm": -26.23223,
+      "seasonalMm": 2.765167
+    },
+    {
+      "date": "2026-07-31",
+      "trendMm": -28.624724,
+      "seasonalMm": 5.953975
+    }
+  ],
+  "areaStats": {
+    "p10": -25.73,
+    "p50": -17.46,
+    "p90": -7.15,
+    "affectedFrac": 0.95
+  },
+  "validation": {
+    "nStations": 3,
+    "maeMmYr": 3.78,
+    "maxAbsErrMmYr": 6.81,
+    "conformalCoverage": 1,
+    "targetCoverage": 0.9,
+    "coverageMet": true
+  },
+  "classifier": {
+    "predicted": "subsidence-bowl",
+    "confidence": 0.82,
+    "dist": [
+      {
+        "cls": "subsidence-bowl",
+        "p": 0.82
+      },
+      {
+        "cls": "landslide-creep",
+        "p": 0.09
+      },
+      {
+        "cls": "structural-motion",
+        "p": 0.06
+      },
+      {
+        "cls": "atmospheric-artifact",
+        "p": 0.03
+      }
+    ]
+  },
+  "scenario": {
+    "years": [
+      5,
+      10,
+      15,
+      20
+    ],
+    "medianMm": [
+      -156.05,
+      -312.09,
+      -468.14,
+      -624.18
+    ],
+    "loMm": [
+      -165.12,
+      -324.92,
+      -483.85,
+      -642.33
+    ],
+    "hiMm": [
+      -146.97,
+      -299.26,
+      -452.42,
+      -606.04
+    ]
+  },
+  "receiptId": "rcpt-mexico-city-ff39707f89bc",
+  "narrator": [
+    "The ground is subsiding at -31.2 mm/yr (95% CI as shown).",
+    "Median velocity is -31.21 ± 4.06 mm/yr (95% CI -35.60 to -27.48), computed from 14 NISAR/Sentinel epochs, 38 km AOI.",
+    "GNSS validation: 3 stations within the AOI agree with a mean absolute error of 3.78 mm/yr (worst 6.81).",
+    "Conformal 90% intervals covered 100% of GNSS check points (target 90% — met).",
+    "The classifier labels this signal \"subsidence-bowl\" with 82% confidence.",
+    "95% of the AOI shows motion beyond the noise floor (p90 -7.15 mm/yr).",
+    "If the trend continues 20 years, projected displacement reaches -624.2 mm (95% CI -642.3 to -606.0).",
+    "Last epoch: 2026-07-31 (49 days ago) — recent (1–2 revisit cycles old)."
+  ],
+  "staleness": {
+    "lastEpoch": "2026-07-31",
+    "daysSinceLastEpoch": 49,
+    "flag": "recent (1–2 revisit cycles old)"
+  }
+}

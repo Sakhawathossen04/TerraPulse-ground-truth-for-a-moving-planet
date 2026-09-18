@@ -1,0 +1,154 @@
+{
+  "id": "central-valley",
+  "name": "Central Valley (Corcoran–Wasco)",
+  "country": "USA",
+  "story": "California's aquifer overdraft: the Corcoran area sank ~9.7 m over 50 years; bands of land still drop >20 cm/yr in wet/dry swings.",
+  "flagship": true,
+  "center": [
+    -119.56,
+    36.1
+  ],
+  "bbox": [
+    -119.9,
+    35.8,
+    -119.2,
+    36.4
+  ],
+  "trueVelocityMmYr": -22,
+  "seasonalityAmpMm": 14,
+  "noiseSigmaMm": 4,
+  "exposure": {
+    "population": 415000,
+    "infra": 0.55
+  },
+  "shapeMeters": 55000,
+  "epochs": [
+    {
+      "date": "2025-08-01",
+      "displacementMm": 7.572,
+      "sigmaMm": 3.836
+    },
+    {
+      "date": "2025-08-29",
+      "displacementMm": 9.84,
+      "sigmaMm": 3.748
+    },
+    {
+      "date": "2025-09-26",
+      "displacementMm": 11.161,
+      "sigmaMm": 4.128
+    },
+    {
+      "date": "2025-10-24",
+      "displacementMm": 5.25,
+      "sigmaMm": 3.827
+    },
+    {
+      "date": "2025-11-21",
+      "displacementMm": -7.648,
+      "sigmaMm": 4.048
+    },
+    {
+      "date": "2025-12-19",
+      "displacementMm": -3.208,
+      "sigmaMm": 4.014
+    },
+    {
+      "date": "2026-01-16",
+      "displacementMm": -25.528,
+      "sigmaMm": 4.358
+    },
+    {
+      "date": "2026-02-13",
+      "displacementMm": -29.376,
+      "sigmaMm": 3.654
+    },
+    {
+      "date": "2026-03-13",
+      "displacementMm": -22.152,
+      "sigmaMm": 3.906
+    },
+    {
+      "date": "2026-04-10",
+      "displacementMm": -27.69,
+      "sigmaMm": 3.63
+    },
+    {
+      "date": "2026-05-08",
+      "displacementMm": -39.509,
+      "sigmaMm": 4.215
+    },
+    {
+      "date": "2026-06-05",
+      "displacementMm": -25.953,
+      "sigmaMm": 4.022
+    },
+    {
+      "date": "2026-07-03",
+      "displacementMm": -12.605,
+      "sigmaMm": 3.886
+    },
+    {
+      "date": "2026-07-31",
+      "displacementMm": -13.31,
+      "sigmaMm": 3.899
+    }
+  ],
+  "gnss": [
+    {
+      "id": "CV1",
+      "name": "Corcoran",
+      "lonLat": [
+        -119.56,
+        36.1
+      ],
+      "distKm": 0.9,
+      "velocityMmYr": -20.8,
+      "sigmaMmYr": 0.7
+    },
+    {
+      "id": "CV2",
+      "name": "Wasco",
+      "lonLat": [
+        -119.34,
+        35.99
+      ],
+      "distKm": 24.7,
+      "velocityMmYr": -17.5,
+      "sigmaMmYr": 0.8
+    },
+    {
+      "id": "CV3",
+      "name": "Delano east",
+      "lonLat": [
+        -119.2,
+        35.97
+      ],
+      "distKm": 37.6,
+      "velocityMmYr": -12.9,
+      "sigmaMmYr": 0.9
+    }
+  ],
+  "classifier": {
+    "predicted": "subsidence-bowl",
+    "dist": [
+      {
+        "cls": "subsidence-bowl",
+        "p": 0.8
+      },
+      {
+        "cls": "landslide-creep",
+        "p": 0.08
+      },
+      {
+        "cls": "structural-motion",
+        "p": 0.07
+      },
+      {
+        "cls": "atmospheric-artifact",
+        "p": 0.05
+      }
+    ],
+    "iouHoldout": 0.63
+  }
+}
